@@ -9,6 +9,7 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        //my comments
         wait = new WebDriverWait(driver, 10);
     }
 }
