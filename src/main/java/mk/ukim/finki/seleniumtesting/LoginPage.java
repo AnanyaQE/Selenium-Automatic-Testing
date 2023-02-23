@@ -28,6 +28,7 @@ public class LoginPage extends BasePage {
         Thread.sleep(5000);
         driver.findElement(By.cssSelector("[name=\"login\"]")).click();
         Thread.sleep(5000);
+        //driver.close();
     }
 
     public String getErrorMessage() {
