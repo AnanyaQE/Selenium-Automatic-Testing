@@ -14,6 +14,7 @@ public class HomePage extends BasePage{
 
     public boolean isLoaded() throws InterruptedException {
         Thread.sleep(12000);
+        //Inside  Load method
         return wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("a8c37x1j")))
                 .isDisplayed();
     }
